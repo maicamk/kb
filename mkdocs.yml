@@ -13,8 +13,6 @@ theme:
 nav:
   - Trang chủ: index.md
   - Guide: guide.md
-  - Private Docs 🔒:
-      - Overview: private/index.md
 
 markdown_extensions:
   - admonition
