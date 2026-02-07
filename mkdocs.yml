@@ -14,8 +14,8 @@ nav:
   - Trang chủ: index.md
   - Guide: guide.md
 
-  features:
-    - navigation.expand
+features:
+  - navigation.expand
 
 plugins:
    - glightbox:
