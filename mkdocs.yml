@@ -11,8 +11,8 @@ theme:
     dark: github-dark
 
 nav:
-  - Trang chủ: index.md
-  - Guide: guide.md
+  - Trang chủ: docs/index.md
+  - Guide: docs/guide.md
 
 plugins:
    - glightbox:
