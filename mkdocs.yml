@@ -1,0 +1,27 @@
+site_name: Tài liệu hướng dẫn sử dụng
+site_description: Hệ thống tài liệu hướng dẫn sử dụng dịch vụ và sản phẩm
+site_url: https://kb.osd.vn
+
+theme:
+  name: shadcn
+  show_title: true
+  show_stargazers: true
+  pygments_style:
+    light: shadcn-light
+    dark: github-dark
+
+nav:
+  - Trang chủ: index.md
+  - Guide: guide.md
+  - Private Docs 🔒:
+      - Overview: private/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+
+extra:
+  generator: false
