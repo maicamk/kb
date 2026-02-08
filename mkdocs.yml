@@ -1,7 +1,6 @@
-site_name: Hướng dẫn sử dụng
-site_description: Hệ thống tài liệu hướng dẫn sử dụng dịch vụ và sản phẩm
+site_name: Hướng dẫn sử dụng Pisale
+site_description: Trang tài liệu hướng dẫn sử dụng sản phẩm bán lẻ Pisale
 site_url: https://kb.osd.vn
-
 theme:
   name: shadcn
   show_title: true
@@ -11,10 +10,7 @@ theme:
   - styles/custom.css
   extra_javascript:
   - js/custom.js
-  pygments_style:
-    light: shadcn-light
-    dark: github-dark
-
+  language: vi
 nav:
   - Trang chủ: index.md
   - Guide: guide.md
@@ -23,6 +19,8 @@ features:
   - navigation.expand
 
 plugins:
+    - search:
+      lang: vi
    - glightbox:
        touchNavigation: true
        loop: false
