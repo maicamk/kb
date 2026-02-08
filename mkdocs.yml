@@ -4,6 +4,7 @@ site_url: https://kb.osd.vn
 
 theme:
   name: shadcn
+  locale: vi
   custom_dir: overrides
 
 extra_css:
@@ -14,8 +15,6 @@ nav:
   - Guide: guide.md
 
 plugins:
-  - search:
-      lang: vi
   - glightbox:
       touchNavigation: true
 
