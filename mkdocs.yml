@@ -16,7 +16,7 @@ nav:
   - Guide: guide.md
 
 plugins:
-    - search:
+   - search:
        lang: vi
    - glightbox:
        touchNavigation: true
