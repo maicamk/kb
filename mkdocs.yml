@@ -11,12 +11,11 @@ theme:
   extra_javascript:
   - js/custom.js
   language: vi
+features:
+  - navigation.expand
 nav:
   - Trang chủ: index.md
   - Guide: guide.md
-
-features:
-  - navigation.expand
 
 plugins:
     - search:
