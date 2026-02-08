@@ -1,40 +1,24 @@
 site_name: Hướng dẫn sử dụng Pisale
 site_description: Trang tài liệu hướng dẫn sử dụng sản phẩm bán lẻ Pisale
 site_url: https://kb.osd.vn
+
 theme:
   name: shadcn
   custom_dir: overrides
-  extra_css:
+
+extra_css:
   - styles/custom.css
-  extra_javascript:
-  - js/custom.js
-  language: vi
-features:
-  - navigation.expand
+  
 nav:
   - Bắt đầu: index.md
   - Guide: guide.md
 
 plugins:
-   - search:
-       lang: vi
-   - glightbox:
-       touchNavigation: true
-       loop: false
-       effect: zoom
-       slide_effect: slide
-       width: 100%
-       height: auto
-       zoomable: true
-       draggable: true
-       skip_classes:
-         - custom-skip-class-name
-       auto_themed: false
-       auto_caption: false
-       caption_position: bottom
-       background: white
-       shadow: true
-       manual: false
+  - search:
+      lang: vi
+  - glightbox:
+      touchNavigation: true
+
 markdown_extensions:
   - admonition
   - pymdownx.details
