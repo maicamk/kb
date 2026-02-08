@@ -3,8 +3,6 @@ site_description: Trang tài liệu hướng dẫn sử dụng sản phẩm bán
 site_url: https://kb.osd.vn
 theme:
   name: shadcn
-  show_title: true
-  show_stargazers: true
   custom_dir: overrides
   extra_css:
   - styles/custom.css
