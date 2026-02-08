@@ -17,7 +17,7 @@ nav:
 
 plugins:
     - search:
-      lang: vi
+       lang: vi
    - glightbox:
        touchNavigation: true
        loop: false
