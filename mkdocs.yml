@@ -6,6 +6,7 @@ theme:
   name: shadcn
   show_title: true
   show_stargazers: true
+  custom_dir: overrides
   pygments_style:
     light: shadcn-light
     dark: github-dark
