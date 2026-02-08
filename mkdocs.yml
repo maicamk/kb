@@ -14,7 +14,7 @@ theme:
 features:
   - navigation.expand
 nav:
-  - Trang chủ: index.md
+  - Bắt đầu: index.md
   - Guide: guide.md
 
 plugins:
