@@ -1,6 +1,6 @@
 site_name: Hướng dẫn sử dụng Pisale
 site_description: Trang tài liệu hướng dẫn sử dụng sản phẩm bán lẻ Pisale
-site_url: https://kb.osd.vn
+site_url: https://pisale-doc.osd.vn
 
 theme:
   name: shadcn
