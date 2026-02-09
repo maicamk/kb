@@ -1,10 +1,14 @@
 <button
-  type="button"
-  data-copy-raw
-  data-raw-url="{{ raw_markdown_url | url }}"
-  data-popover-trigger
+  onclick="fetch(`{{ raw_markdown_url | url }}`)
+    .then(r => r.blob())
+    .then(blob => navigator.clipboard.write([
+      new ClipboardItem({ 'text/plain': blob })
+    ]))"
+  title="Copy URL"
   aria-label="Copy URL"
-  class="relative inline-flex h-8 w-8 items-center justify-center rounded-md
+  data-slot="button"
+  class="group relative inline-flex h-8 w-8 items-center justify-center
+         rounded-md
          text-muted-foreground transition
          hover:bg-secondary hover:text-foreground
          focus-visible:outline-none
@@ -21,18 +25,18 @@
     stroke-linejoin="round"
     class="size-4"
   >
-    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+    <rect x="9" y="9" width="13" height="13" rx="2"></rect>
     <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
   </svg>
 
-  <!-- Popover -->
-  <div
-    data-popover
+  <!-- Tooltip (CSS-only, không JS) -->
+  <span
     class="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2
-           z-50 rounded-md border bg-popover px-2 py-1
+           whitespace-nowrap rounded-md border bg-popover px-2 py-1
            text-xs text-popover-foreground shadow
-           opacity-0 scale-95 transition"
+           opacity-0 scale-95 transition
+           group-hover:opacity-100 group-hover:scale-100"
   >
     Copy URL
-  </div>
+  </span>
 </button>
