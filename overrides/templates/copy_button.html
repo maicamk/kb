@@ -2,33 +2,37 @@
   type="button"
   data-copy-raw
   data-raw-url="{{ raw_markdown_url | url }}"
-  aria-label="Copy Page"
-  class="relative group cursor-pointer inline-flex items-center justify-center
-         rounded-md p-2 text-muted-foreground
-         hover:text-foreground hover:bg-secondary/80
-         transition focus-visible:outline-none
+  data-popover-trigger
+  aria-label="Copy URL"
+  class="relative inline-flex h-8 w-8 items-center justify-center rounded-md
+         text-muted-foreground transition
+         hover:bg-secondary hover:text-foreground
+         focus-visible:outline-none
          focus-visible:ring-ring/50 focus-visible:ring-[3px]"
 >
-  <!-- Icon copy -->
-  <svg xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 24 24"
-       fill="none"
-       stroke="currentColor"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       class="size-4">
-    <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z"/>
-    <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1"/>
+  <!-- Lucide Copy icon -->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="size-4"
+  >
+    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
   </svg>
 
-  <!-- Tooltip -->
-  <span
-    class="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2
-           whitespace-nowrap rounded bg-foreground px-2 py-1 text-xs
-           text-background opacity-0 shadow
-           group-hover:opacity-100 transition"
+  <!-- Popover -->
+  <div
+    data-popover
+    class="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2
+           z-50 rounded-md border bg-popover px-2 py-1
+           text-xs text-popover-foreground shadow
+           opacity-0 scale-95 transition"
   >
     Copy URL
-  </span>
+  </div>
 </button>
