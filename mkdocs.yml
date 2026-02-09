@@ -11,7 +11,7 @@ extra_css:
   
 nav:
   - Bắt đầu: index.md
-  - Chung:
+  - Tính năng chung:
     - Finder: common/finder.md
 
 plugins:
