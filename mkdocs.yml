@@ -11,7 +11,8 @@ extra_css:
   
 nav:
   - Bắt đầu: index.md
-  - Guide: guide.md
+  - Chung:
+    - Finder: common/finder.md
 
 plugins:
   - glightbox:
