@@ -1,10 +1,4 @@
-# Chào mừng bạn đến với trung tâm hỗ trợ khách hàng 👋
+# Chào mừng bạn đến với hệ thống tài liệu sử dụng sản phẩm Pisale 👋
 
-Đây là website tài liệu hướng dẫn sử dụng.
-
-## Features
-- Pisale
-- Mkmate
-- Shared Hosting
-- ERP
-- Email Server
+Pisale là sản phẩm dành cho bán lẻ hàng hóa của OSD.VN.
+Vui lòng chọn chức năng tìm kiếm để tra cứu nội dung bạn cần tìm.
