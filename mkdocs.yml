@@ -3,11 +3,9 @@ site_description: Trang tài liệu hướng dẫn sử dụng sản phẩm bán
 site_url: https://pisale-doc.osd.vn
 
 theme:
-  name: shadcn
+  name: material
   custom_dir: overrides/
-  show_title: false
-  show_stargazers: false
-
+  
 extra_css:
   - styles/custom.css
   
