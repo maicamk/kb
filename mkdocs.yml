@@ -14,8 +14,8 @@ extra_css:
 nav:
   - Bắt đầu: index.md
   - Tính năng chung:
-    - Finder: common/finder.md
-    - FAQs: common/faqs.md
+    - Trình quản lý tệp (Finder): common/finder.md
+    - Câu hỏi thường gặp: common/faqs.md
 
 plugins:
   - glightbox:
