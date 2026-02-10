@@ -7,6 +7,8 @@ theme:
   custom_dir: overrides/
   language: vi
   
+features:
+    - navigation.tabs  
 extra_css:
   - styles/custom.css
   
