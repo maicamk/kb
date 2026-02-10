@@ -43,7 +43,7 @@ nav:
       - Grid Content: design/module/grid
       - Danh sách nhà sản xuất: design/module/manufacturer
       - Trình bày tin bài: design/module/news
-      - Chuên mục tin: design/module/news_category
+      - Chuyên mục tin: design/module/news_category
       - Trình bày sản phẩm: design/module/product_category
       - Hộp tìm kiếm: design/module/searchbox
       - Mạng xã hội: design/module/social
