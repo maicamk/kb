@@ -22,6 +22,56 @@ nav:
     - Mục lục tự động: common/toc
   - Quản lý nội dung:
     - Đặc tính sản phẩm: catalog/attribute
+    - Nhóm đặc tính: catalog/attribute_group
+    - Nhóm sản phẩm: catalog/category
+    - Thư viện ảnh: catalog/gallery
+    - Longform: catalog/gridpage
+    - Thông tin: catalog/information
+    - Nhà sản xuất: catalog/manufacturer
+    - Tin bài: catalog/news
+    - Chuyên mục tin bài: catalog/news_category
+    - Tuỳ chọn: catalog/option
+    - Dự án tiêu biểu: catalog/portfolio
+    - Sản phẩm: catalog/product
+    - Dịch vụ: catalog/service
+    - Nhóm dịch vụ: catalog/service_cat
+  - Giao diện:
+    - Mô-đun: category/mô-đun
+      - Mô-đun banner: design/module/banner
+      - Mô-đun nhóm sản phẩm: design/module/category
+      - Facebook Business Page: design/module/facebook_lb
+      - Mô đun Grid Content: design/module/grid
+      - Danh sách nhà sản xuất: design/module/manufacturer
+      - Mô-đun trình bày tin bài: design/module/news
+      - news_category: design/module/news_category
+      - Mô đun trình bày sản phẩm: design/module/product_category
+      - Mô đun Hộp tìm kiếm: design/module/searchbox
+      - Mô đun mạng xã hội: design/module/social
+      - Hệ thống cửa hàng: design/module/store
+      - Mô đun hỗ trợ trực tuyến: design/module/supportonline
+      - Mô đun Nội dung: design/module/welcome
+    - Banner & trình diễn: common/toc
+    - Mã nhúng: design/custom
+    - Nhận diện: design/display
+    - Trình đơn & trình bày trình đơn: design/menumanager
+  - SEO:
+    - Chuyển hướng URL: seo/redirect
+    - Cấu hình SEO: seo/config
+    - Khai báo SEO cho từng trang: seo/serp
+  - Hệ thống:
+    - Tích hợp: category/tích-hợp
+      - Tích hợp giao thức gửi email: setting/intergrate/email
+      - Hướng dẫn tích hợp Google Analytics: setting/intergrate/google_analytics
+      - Tích hợp Google Recaptcha: setting/intergrate/google_recaptcha
+      - Hướng dẫn nhúng bản đồ: setting/intergrate/map
+      - Hướng dẫn tích hợp Google Search Console: setting/intergrate/search_console
+      - Hướng dẫn tích hợp Zalo: setting/intergrate/zalo
+    - Thành viên: category/thành-viên
+      - Thành viên: setting/user/
+      - Vai trò: setting/user/user_permission
+    - Quản lý Mẫu nội dung: setting/pattern
+    - Thiết lập hệ thống: setting/
+    - Chi nhánh, cơ sở kinh doanh: setting/store
 
 plugins:
 
