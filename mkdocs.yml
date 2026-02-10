@@ -18,6 +18,10 @@ nav:
     - Quản lý tệp (Finder): common/finder.md
     - Câu hỏi thường gặp: common/faqs.md
     - Các logic: common/logic.md
+    - Trình soạn thảo nội dung: common/tinymce
+    - Mục lục tự động: common/toc
+  - Quản lý nội dung:
+    - Đặc tính sản phẩm: catalog/attribute
 
 plugins:
 
