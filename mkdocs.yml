@@ -67,10 +67,10 @@ nav:
       - Hướng dẫn tích hợp Google Search Console: setting/intergrate/search_console
       - Hướng dẫn tích hợp Zalo: setting/intergrate/zalo
     - Thành viên:
-      - Thành viên: setting/user/
+      - Thành viên: setting/user/user
       - Vai trò: setting/user/user_permission
     - Quản lý Mẫu nội dung: setting/pattern
-    - Thiết lập hệ thống: setting/
+    - Thiết lập hệ thống: setting/setting
     - Chi nhánh, cơ sở kinh doanh: setting/store
 
 plugins:
