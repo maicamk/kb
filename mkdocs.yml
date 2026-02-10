@@ -8,7 +8,10 @@ theme:
   language: vi
   
 features:
-    - navigation.tabs  
+    - navigation.tabs
+    - navigation.expand
+    - content.code.copy
+    
 extra_css:
   - styles/custom.css
   
