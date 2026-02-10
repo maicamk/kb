@@ -1,6 +1,6 @@
 # Câu hỏi thường gặp
 
-Tính năng này được biết đến nhiều vì lợi ích SEO, được xuất hiện trong tin bài, bài dịch vụ,...
+Tính năng này được biết đến nhiều vì lợi ích SEO, được dùng ở cuối bài của các loại nội dung chi tiết sản phẩm, tin bài, chi tiết dịch vụ, thông tin...
 
 ## Thêm mới câu hỏi thường gặp
 
