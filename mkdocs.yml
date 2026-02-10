@@ -12,9 +12,6 @@ features:
     - navigation.expand
     - content.code.copy
     
-extra_css:
-  - styles/custom.css
-  
 nav:
   - Bắt đầu: index.md
   - Tính năng chung:
