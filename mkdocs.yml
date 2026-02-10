@@ -15,6 +15,7 @@ nav:
   - Bắt đầu: index.md
   - Tính năng chung:
     - Finder: common/finder.md
+    - FAQs: common/faqs.md
 
 plugins:
   - glightbox:
