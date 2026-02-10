@@ -59,14 +59,14 @@ nav:
     - Cấu hình SEO: seo/config
     - Khai báo SEO cho từng trang: seo/serp
   - Hệ thống:
-    - Tích hợp: category/tích-hợp
+    - Tích hợp:
       - Tích hợp giao thức gửi email: setting/intergrate/email
       - Hướng dẫn tích hợp Google Analytics: setting/intergrate/google_analytics
       - Tích hợp Google Recaptcha: setting/intergrate/google_recaptcha
       - Hướng dẫn nhúng bản đồ: setting/intergrate/map
       - Hướng dẫn tích hợp Google Search Console: setting/intergrate/search_console
       - Hướng dẫn tích hợp Zalo: setting/intergrate/zalo
-    - Thành viên: category/thành-viên
+    - Thành viên:
       - Thành viên: setting/user/
       - Vai trò: setting/user/user_permission
     - Quản lý Mẫu nội dung: setting/pattern
