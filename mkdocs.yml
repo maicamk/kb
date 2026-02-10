@@ -17,8 +17,6 @@ nav:
     - Câu hỏi thường gặp: common/faqs.md
 
 plugins:
-  - glightbox:
-      touchNavigation: true
 
 markdown_extensions:
   - admonition
