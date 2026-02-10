@@ -15,8 +15,9 @@ features:
 nav:
   - Bắt đầu: index.md
   - Tính năng chung:
-    - Trình quản lý tệp (Finder): common/finder.md
+    - Quản lý tệp (Finder): common/finder.md
     - Câu hỏi thường gặp: common/faqs.md
+    - Các logic: common/logic.md
 
 plugins:
 
