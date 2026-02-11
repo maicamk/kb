@@ -6,6 +6,8 @@ theme:
   name: material
   custom_dir: overrides/
   language: vi
+  font:
+    text: Roboto
   
 features:
     - navigation.tabs
