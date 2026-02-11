@@ -55,9 +55,8 @@ nav:
     - Nhận diện: design/display
     - Trình đơn & trình bày trình đơn: design/menumanager
   - SEO:
+    - Cấu hình chung: seo/seo
     - Chuyển hướng URL: seo/redirect
-    - Cấu hình SEO: seo/config
-    - Khai báo SEO cho từng trang: seo/serp
   - Hệ thống:
     - Tích hợp: setting/intergrate
     - Thành viên:
